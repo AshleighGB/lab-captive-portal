@@ -1,7 +1,7 @@
 <html>
 <body>
 <form method="post" action="https://network-login.trinity-cloud.com:8005/index.php?zone=accessweb">
-	<input name="redirurl" type="hidden" value="https://joshuawareing.me">
+	<input name="redirurl" type="hidden" value="https://network-login/access?zone=internet">
 	<input name="zone" type="hidden" value="accessweb">
 	<center>
 	<table cellpadding="6" cellspacing="0" width="550" height="380" style="border:1px solid #000000">
@@ -39,7 +39,7 @@
 								<br />
 								<div id='loginbox'>
 								<table>
-									<tr><td colspan="2"><center>Welcome to the pfSense Captive Portal!</td></tr>
+									<tr><td colspan="2"><center></td></tr>
 									<tr><td>&nbsp;</td></tr>
 									<tr><td class="text-right">Username:</td><td><input name="auth_user" type="text" style="border: 1px dashed;"></td></tr>
 									<tr><td class="text-right">Password:</td><td><input name="auth_pass" type="password" style="border: 1px dashed;"></td></tr>
